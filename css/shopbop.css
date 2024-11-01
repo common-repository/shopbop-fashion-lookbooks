@@ -1,0 +1,85 @@
+.sp_digitallylux-widget {
+    padding-left: 0;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-top: 20px;
+    position:relative
+    z-index: 555;
+    width: 60%;
+}
+.sp_footer-links {
+    position:relative;
+    z-index:999;
+}
+iframe.sp_digitallylux-iframe {
+    width: 100% !important;
+    position: relative;
+    max-width: 700px;
+}
+.sbp-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #000;
+    position: relative;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+.sbp-title-wrap {
+    margin-top: -24px;
+}
+.sbp-title-wrap > a {
+    display: inline-block;
+    margin-left: calc(50% - 157px);
+}
+.sbp-title-wrap a > img {
+    max-width: none;
+    display: block;
+    height: 88px;
+}
+.slider-container img, .sbp-container img { border-radius: 0px !important; box-shadow: inherit !important; }
+.sbp-container .sbp-overlay-wrapper {
+    background: #ffffff !important;
+    opacity: 1;
+    text-align: center;
+    padding: 8px 5px 22px;
+}
+.sbp-container .sbp-overlay-wrapper a {
+    color: #000 !important;
+    text-decoration: underline;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.sbp-container .sbp-overlay-wrapper a:hover { color: #000 !important; }
+.sb_pixel_img {
+    display: none;
+}
+@media only screen and (max-width: 1200px) {
+    .sp_digitallylux-widget {
+        padding-left: 0;
+        margin:20px 0px;
+        width:100% !important;
+    }
+    iframe.sp_digitallylux-iframe {
+        width: 100% !important; 
+    }
+}
+@media only screen and (min-width: 801px) and (max-width: 959px) {
+    .sp_digitallylux-widget {
+        padding-left: 0;
+        margin-bottom: 20px;
+        width: 700px !important;
+    }
+    iframe.sp_digitallylux-iframe {
+        width: 100% !important; 
+    }
+}
+@media only screen and (max-width: 320px){    
+    iframe.sp_digitallylux-iframe {
+        width: 280px !important;
+    }
+}
